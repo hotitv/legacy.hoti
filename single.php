@@ -1,0 +1,50 @@
+<?php get_header(); ?>
+
+	
+
+		<div id="single_cont">
+
+
+			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>          
+
+
+
+				<h1 class="single_title"><?php the_title(); ?></h1>
+
+				<div class="single_inside_content">
+
+
+
+				<?php the_content(); ?>
+
+
+
+				</div><!--//single_inside_content-->
+
+				<br /><br />
+
+
+
+			
+
+			<?php endwhile; else: ?>
+
+
+
+				<h3>Sorry, no posts matched your criteria.</h3>
+
+
+
+			<?php endif; ?>                    
+
+		
+
+		</div><!--//single_cont-->
+
+		
+
+		<?php get_sidebar('right'); ?>
+
+		
+
+<?php get_footer(); ?>            		
