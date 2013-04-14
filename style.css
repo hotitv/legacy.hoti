@@ -413,7 +413,7 @@ h1.single_title { font-size: 25px; margin: 0px 0px 15px; font-weight: normal; co
 
 	#main_container { width: 300px; margin: 0 auto; }
 
-	#sidebar { float: none; width: 40%; line-height: 22px; }
+	#sidebar { float: none; width: 97%; line-height: 22px;}
 
 	#sidebar ul li a { padding: 7px 6px; }
 
@@ -421,8 +421,49 @@ h1.single_title { font-size: 25px; margin: 0px 0px 15px; font-weight: normal; co
 
 	.side_social { display: none; }
 
+	.menu-alone{
+		font-size: 30px !important;
+		float: right;
+		position:  absolute;
+		right: 20px;
+		top: 25px;
+	}
 	
+	.menu-item{
+		
+	}
+	.logo{	
+		height: 80px;
+		width: 80px;
+		margin-top: -1px;
+		margin-left: 0;
+	}
 
+	#category_menu, #cat_menu {
+		/*display: none;*/
+		position:  absolute;
+		background-color: #000;
+		font-size: 12px !important;
+		z-index: 1000;
+	}
+	#menu{
+		position:  fixed  !important;
+		z-index: 1000;
+		right: 38px;
+		background-color: #000;
+		font-size: 12px !important;
+	}
+	.single_title{
+		display: none;
+	}
+	
+	.single_inside_content{
+		margin-top: -20px;
+	}
+	#content_cont{
+		margin-top: 20px;
+	}
+	
 	#sidebar_right { display: none; }
 
 	

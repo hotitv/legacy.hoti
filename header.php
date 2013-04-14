@@ -27,11 +27,11 @@
 	<div id="sidebar">
 
 		<?php if(get_option($shortname.'_custom_logo_url','') != "") { ?>
-		  <a href="<?php bloginfo('url'); ?>"><img src="<?php echo stripslashes(stripslashes(get_option($shortname.'_custom_logo_url',''))); ?>" class="logo" alt="logo" /></a>
+		  <a href="<?php bloginfo('url'); ?>"><img src="<?php echo stripslashes(stripslashes(get_option($shortname.'_custom_logo_url',''))); ?>" class="logo" alt="logo" style=""/></a>
 		<?php } else { ?>
 		  <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.jpg" class="logo" alt="logo" /></a>
 		<?php } ?>            
-	
+			<ul id="menu2" class="menu" style="">		<li id="menu-item-744" class="menu-item menu-alone">		<a href="http://hoti.tv/g/electronica/">Menu</a></li></ul>
 <!--	
 		<ul>
 			<li><a href="#">HOME</a></li>
@@ -40,7 +40,7 @@
 			<li><a href="#">CONTACT</a></li>
 		</ul>-->
 		<?php wp_nav_menu('menu=header_menu&container=false&menu_id=menu'); ?>
-		
+
 		<!--
 		<ul>
 			<li><a href="#">GRAPHIC DESIGN</a></li>
