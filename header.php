@@ -31,7 +31,7 @@
 		<?php } else { ?>
 		  <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.jpg" class="logo" alt="logo" /></a>
 		<?php } ?>            
-			<ul id="menu2" class="menu" style="">		<li id="menu-item-744" class="menu-item menu-alone">		<a href="http://hoti.tv/g/electronica/">Menu</a></li></ul>
+			<ul class="" style="">		<li id="menu-item-744" class="menu-item menu-alone">		<a href="#" id="menu2">Menu</a></li></ul>
 <!--	
 		<ul>
 			<li><a href="#">HOME</a></li>

@@ -76,7 +76,7 @@
   
   }  
 
-$(document).ready(function() {
+$(document).ready(function() {	$('#menu2').click(function() {		$("#cat_menu").toggleClass("highlight");		$("#menu").toggleClass("highlight");		$(this).toggleClass("rayita");	});
 	
 	premium_slider();
 
@@ -110,4 +110,4 @@ $(document).ready(function() {
 		}
 	);
 	
-});
+});	
