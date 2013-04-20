@@ -9,7 +9,7 @@
   <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
   <![endif]-->              
   <script src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.js" type="text/javascript"></script>
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" title="no title" charset="utf-8"/>
+  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" title="no title" charset="utf-8"/>  <?php locate_template( 'wp-content/themes/tmp-generos/includes/Mobile_Detect.php', true );	$detect = new Mobile_Detect;      if($detect->isiphone()){ ?>	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/iphone.css" type="text/css" media="screen" title="no title" charset="utf-8"/>	<?php }		if($detect->isiPad()){ ?>	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/ipad.css" type="text/css" media="screen" title="no title" charset="utf-8"/><?php } ?>
   <script src="<?php bloginfo('stylesheet_directory'); ?>/js/scripts.js" type="text/javascript"></script>
 </head>
 <body>

@@ -1,5 +1,4 @@
-<?php
-
+<?php
 $themename = "Premium";
 $shortname = "premium";
 

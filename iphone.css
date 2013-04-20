@@ -1,0 +1,79 @@
+    .soundcloudIsGold{
+    background-size:300px 300px;
+    background-repeat:no-repeat;
+    height: 300px;
+    width: 300px;
+    margin:  0;
+    padding:  0;
+    }
+    
+    .soundcloudIsGold > ul > li{
+    font-family: "SourceSansPro-ExtraLight";
+    font-size: 35px;
+    height: 35px;
+    width: 35px;
+    color: #fff;
+    list-style-type: none;
+    cursor: pointer;
+    padding: 0 0 0 0;
+    
+    }
+    .soundcloudIsGold:hover > ul > li{
+		 background-color: #000;
+    		 height: 40px;
+		 width: auto;
+		 background-repeat:no-repeat;
+		 background-position: center center;
+    }
+    
+    .soundcloudIsGold > ul{
+        padding-left: 0;
+        padding-top: 100px;
+    }
+
+/* 	.soundcloudIsGold > ul > .pause:after {
+		content: "Pausar";
+	}
+	
+
+	.soundcloudIsGold > ul > .play:after {
+		content: "Reproducir";
+	} */
+	
+	
+	.soundcloudIsGold > ul > .pause:after {
+		content: "Pausar";
+	}
+	
+	.soundcloudIsGold > ul > .play:after {
+		content: "Reproducir";
+	}
+	
+	.soundcloudIsGold > ul > #next:after {
+		content: "Siguiente";
+	}
+	
+	.soundcloudIsGold > ul > #prev:after {
+		content: "Anterior";
+	}
+	
+	.soundcloudIsGold > ul > #playlist:after {
+		content: "t";
+	}
+	
+	.soundcloudIsGold > ul > .downloadable:after {
+		content: "Descargar";
+	}
+
+	#info_track{
+		bottom: 185px;
+		width:300px;
+                position:absolute;
+	}
+	
+	#info_title{
+		bottom: 140px;
+		width:300px;
+                position:absolute;
+		white-space:nowrap;
+	}
