@@ -23,6 +23,6 @@
 		
 		</div><!--//single_cont-->
 		
-		<?php get_sidebar('right'); ?>
+		
 		
 <?php get_footer(); ?>            		

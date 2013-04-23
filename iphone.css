@@ -1,79 +1,120 @@
-    .soundcloudIsGold{
-    background-size:300px 300px;
-    background-repeat:no-repeat;
+
+	
+	#footer { padding: 0; margin-top: -10px; text-align: center;}
+	
+
+	#main_container { width: 300px; margin: 0 auto; }
+
+	#sidebar { float: none; width: 100%; line-height: 22px;}
+
+	#sidebar ul li a { padding: 7px 6px; }
+	#sidebar ul  { 
+		margin: 10px 0;
+		
+	}
+
+	.side_text_cont { display: none; }
+
+	.side_social { display: none; }
+
+	.menu-alone{
+		font-size: 30px !important;
+		float: right;
+		margin-top: -60px;
+		top: 0px;
+		display: block;
+		
+	}
+	
+	.logo{	
+		height: 80px;
+		width: 80px;
+		margin-top: -1px;
+		margin-left: 0;
+	}
+
+	#category_menu, #cat_menu {
+		/*display: none;*/
+		position:  absolute;
+		background-color: #000;
+		font-size: 12px !important;
+		width: 150px;
+		
+	}
+	
+	
+	.menu{
+		visibility: collapse;
+	}
+	
+	#menu{
+		float: right;
+		background-color: #000;
+		font-size: 12px !important;
+		width: 150px;
+	}
+	.single_title{
+		display: none;
+	}
+	
+	.single_inside_content{
+		margin-top: -90px;
+	}
+	#content_cont{
+		margin-top: 0px;
+	}
+	
+	#sidebar_right { display: none; }
+
+	#sidebar{
+}
+
+.single_inside_content{
+	max-height: 300px;
     height: 300px;
-    width: 300px;
-    margin:  0;
-    padding:  0;
-    }
-    
-    .soundcloudIsGold > ul > li{
-    font-family: "SourceSansPro-ExtraLight";
-    font-size: 35px;
-    height: 35px;
-    width: 35px;
-    color: #fff;
-    list-style-type: none;
-    cursor: pointer;
-    padding: 0 0 0 0;
-    
-    }
-    .soundcloudIsGold:hover > ul > li{
-		 background-color: #000;
-    		 height: 40px;
-		 width: auto;
-		 background-repeat:no-repeat;
-		 background-position: center center;
-    }
-    
-    .soundcloudIsGold > ul{
-        padding-left: 0;
-        padding-top: 100px;
-    }
+}
 
-/* 	.soundcloudIsGold > ul > .pause:after {
-		content: "Pausar";
-	}
+	#slideshow_cont { display: none; }
+
 	
 
-	.soundcloudIsGold > ul > .play:after {
-		content: "Reproducir";
-	} */
+	#content_cont { width: 100%; float: none; }
+
 	
+
+	.home_post_box { float: none; width: 300px; height: 228px; }
+
+	.home_post_box img { width: 300px; height: 228px; }		
+
+	.home_post_box_hover { left: 15px; top: 15px; width: 270px; height: 198px;   }
+
+	.single_inside_content img { max-width: 300px; height: inherit; }
+
 	
-	.soundcloudIsGold > ul > .pause:after {
-		content: "Pausar";
+
+	#single_cont { float: none; width: 100%; }
+
+	#commentform textarea { max-width: 280px; }
+
+	
+
+	.blog_box_img { width: 300px; height: 158px; position: relative; }
+
+	.blog_box_img img { width: 300px; height: 158px; }	
+
+	.blog_box_img_hover { top: 10px; left: 10px; width: 260px; height: 138px; padding: 0 10px; }
+
+	.blog_box_img_hover p { font-size: 11px; line-height: 18px; }
+
+	body{ overflow:hidden;}
+
+	
+	.highlight{
+		visibility: visible;
+		z-index: 1;
 	}
-	
-	.soundcloudIsGold > ul > .play:after {
-		content: "Reproducir";
-	}
-	
-	.soundcloudIsGold > ul > #next:after {
-		content: "Siguiente";
-	}
-	
-	.soundcloudIsGold > ul > #prev:after {
-		content: "Anterior";
-	}
-	
-	.soundcloudIsGold > ul > #playlist:after {
-		content: "t";
-	}
-	
-	.soundcloudIsGold > ul > .downloadable:after {
-		content: "Descargar";
+	.rayita{
+		border-left: 1px solid rgb(241, 96, 82) !important;
 	}
 
-	#info_track{
-		bottom: 185px;
-		width:300px;
-                position:absolute;
-	}
-	
-	#info_title{
-		bottom: 140px;
-		width:300px;
-                position:absolute;
-		white-space:nowrap;
-	}
+}

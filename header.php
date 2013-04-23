@@ -8,7 +8,7 @@
   <!--[if lt IE 9]>
   <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
   <![endif]-->              
-  <script src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.js" type="text/javascript"></script>
+<!--  <script src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.js" type="text/javascript"></script>--><script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" title="no title" charset="utf-8"/>  <?php locate_template( 'wp-content/themes/tmp-generos/includes/Mobile_Detect.php', true );	$detect = new Mobile_Detect;      if($detect->isiphone()){ ?>	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/iphone.css" type="text/css" media="screen" title="no title" charset="utf-8"/>	<?php }		if($detect->isiPad()){ ?>	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/ipad.css" type="text/css" media="screen" title="no title" charset="utf-8"/><?php } ?>
   <script src="<?php bloginfo('stylesheet_directory'); ?>/js/scripts.js" type="text/javascript"></script>
 </head>
@@ -21,7 +21,7 @@
 	  body { background-color: <?php echo get_option($shortname.'_custom_background_color',''); ?>; }
 	</style>
 <?php } ?>
-
+ <div id="center_div">
 <div id="main_container">
 
 	<div id="sidebar">
@@ -49,7 +49,7 @@
 			<li><a href="#">WEB DESIGN</a></li>
 		</ul>-->
 		<?php wp_nav_menu('menu=category_menu&container=false&menu_id=cat_menu'); ?>
-		
+
 		<div class="clear"></div>
 		
 		<div class="side_text_cont">

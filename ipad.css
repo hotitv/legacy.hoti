@@ -1,65 +1,56 @@
-    .soundcloudIsGold{
-    background-size:425px 425px;
-    background-repeat:no-repeat;
-    height: 425px;
-    width: 425px;
-    margin:  0;
-    padding:  0;
-    }
-    
-    .soundcloudIsGold > ul > li{
-    font-family: "hoti";
-    font-size: 35px;
-    height: 35px;
-    width: 35px;
-    color: #000;
-    list-style-type: none;
-    cursor: pointer;
-    padding: 0 0 0 0;
-    
-    }
-            .soundcloudIsGold > ul > li{
-		 background:url('data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=');
-		 background-size:28px 28px;
-		 background-repeat:no-repeat;
-		 background-position: center center;
-    }
-    
-    .soundcloudIsGold > ul{
-        padding-left: 0;
-        padding-top: 100px;
-    }
 
-/* 	.soundcloudIsGold > ul > .pause:after {
-		content: "Pausar";
-	}
+	#main_container { width: 708px; margin: 0 auto; }
+
+	#sidebar { float: none; width: 100%; line-height: 22px; }
+
+	.logo { margin: -1px 0px 0px 0px; float: left; max-width: 300px; height: inherit; }
+
+	#sidebar ul { float: right; margin: 0px 0px 0px 0px; width: 150px; }
+
+	.side_text_cont { display: none; }
+
 	
 
-	.soundcloudIsGold > ul > .play:after {
-		content: "Reproducir";
-	} */
+	#content_cont { width: 100%; float: none; }
+
+	#slideshow_cont { width: 708px; }
+
+	#slideshow { width: 708px; height: 217px; }
+
+	#slideshow img { width: 708px; height: 217px; }	
+
 	
+
+	.slide_prev { left: 25px; top: 90px; }
+
+	.slide_next { right: 25px; top: 90px; }	
+
 	
-	.soundcloudIsGold > ul > .pause:after {
-		content: "Pausar";
-	}
+
+	.home_post_box { width: 236px; height: 179px;  }
+
+	.home_post_box img { width: 236px; height: 179px; }	
+
+
+
+	.home_post_box_hover { left: 10px; top: 10px; width: 216px; height: 159px; }
+
 	
-	.soundcloudIsGold > ul > .play:after {
-		content: "Reproducir";
-	}
+
+	#single_cont { float: left; width: 520px; padding-top: 15px; }
+
+	.single_inside_content img { max-width: 520px; height: inherit; }
+
+	.blog_box_img { width: 520px; height: 257px; position: relative; }
+
+	.blog_box_img img { width: 520px; height: 257px; }	
+
+	.blog_box_img_hover { top: 15px; left: 15px; width: 460px; height: 227px; padding: 0 15px; }
+
 	
-	.soundcloudIsGold > ul > #next:after {
-		content: "Siguiente";
-	}
-	
-	.soundcloudIsGold > ul > #prev:after {
-		content: "Anterior";
-	}
-	
-	.soundcloudIsGold > ul > #playlist:after {
-		content: "t";
-	}
-	
-	.soundcloudIsGold > ul > .downloadable:after {
-		content: "Descargar";
-	}
+
+	#sidebar_right {  width: 150px; margin-top: 25px; }
+
+	.t1_search_cont { position: relative; width: 150px; }
+
+	.t1_search_cont input[type=text] { width: 130px;  }	

@@ -16,15 +16,7 @@ if ( function_exists( 'add_theme_support' ) ) { // Added in 2.9
 
 }
 
-if ( function_exists('register_sidebar') ) {
-        register_sidebar(array(
-                'name'=>'Sidebar',
-		'before_widget' => '<div class="side_box">',
-		'after_widget' => '</div>',
-		'before_title' => '<h3 class="side_title">',
-		'after_title' => '</h3>',
-	));
-}
+
 
 function ds_get_excerpt($num_chars) {
 

@@ -4,7 +4,7 @@ Theme Name: Hotï Theme
 Theme URI: http://hoti.tv
 Github Theme URI: https://github.com/hotitv/tmp-generos
 Description: Hotï Theme for WordPress is stylish, customizable, simple, and readable.
-Version: v1.4.3
+Version: v1.4.4
 Author: Marcos Colina
 Author URI: https://www.facebook.com/marcoscolinar
 Tags: hoti, 3 column theme, clean, portfolio
@@ -290,7 +290,7 @@ a:hover { color: #f16052; }
 
 
 
-#single_cont { float: left; width: 680px; padding-top: 15px; }
+#single_cont { float: left; width: 680px; padding-top:8px; z-index: -1;}
 
 .blog_box { margin-bottom: 25px; cursor: pointer; }
 
@@ -306,9 +306,11 @@ a:hover { color: #f16052; }
 
 
 
-h1.single_title { font-size: 25px; margin: 0px 0px 15px; font-weight: normal; color: #fff; line-height: 35px; }
+h1.single_title { font-size: 25px; margin: 10px 0px 15px; font-weight: normal; color: #fff; line-height: 35px; }
 
-.single_inside_content p { margin: 10px 0 15px; }
+.single_inside_content{margin-top: 150px;}
+
+single_inside_content p { margin: 10px 0 15px; }
 
 
 
